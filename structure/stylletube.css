@@ -1,6 +1,7 @@
 
 body {
-background-color: #222;
+background-color: #222; 
+    overflow: none;
 } a {
 border: none;
 }
