@@ -1,7 +1,7 @@
 
 body {
 background-color: #222; 
-    overflow: none;
+    overflow: hidden;
 } a {
 border: none;
 }
