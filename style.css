@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    margin: 0px;
+}
+.sidebar {
+    background-color: rgb(15, 15, 15);
+    color: white;
+    border: none;
+    margin-left: 5px;
+    border-radius: 1px;
+    padding: 5px;
+    transition: 0.8s;
+    width: 90%;
+}
+.sidebar img {
+    width: 20px;
+    padding: 2px;
+}
+.sidebar:hover {
+    background-color: rgb(31, 31, 31);
+    color: rgb(226, 226, 226);
+    margin-left: 20px;
+}
+.sidebar:active {
+    background-color: white;
+    color: black;
+    margin: 15px;
+    margin-left: 5px;
+}
+#sidebar {
+    border-right: 2px solid white;
+    width: 250px;
+    height: 700px;
+    color: white;
+}
+h1,p {
+    font-family: monospace;
+    transition: 80s;
+}
+h1:hover, p:hover {
+    background: repeating-linear-gradient(
+        to-right,
+        red,
+        orange,
+        yellow,
+        green,
+        blue,
+        purple
+    );
+    color: black;
+}
+.bct {
+    margin-bottom: 1px;
+}
+.dinscrever {
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    margin-left: 5px;
+    transition: 1s;
+}
+.dinscrever:hover {
+    background-color: rgb(255, 76, 76);
+}
+.channel {
+    background-color: rgb(15, 15, 15);
+    border-radius: 10px;
+    padding: 5px;
+    font-family: monospace;
+}
+.channel img {
+    width: 20px;
+    margin-right: 10px;
+}
+.channel .playtube span {
+    background-color: yellow;
+    border-radius: 10px;
+}
